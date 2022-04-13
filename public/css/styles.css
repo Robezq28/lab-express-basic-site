@@ -1,0 +1,31 @@
+body {
+    background-color: beige;
+}
+
+footer {
+    background-color: black;
+    color: beige;
+    text-align: start;
+    padding: 15px;
+    font-size: .9em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.logo-img {
+    height: 400px;
+    padding: 50px;
+}
+
+.carousel {
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+}
